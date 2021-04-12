@@ -25,7 +25,7 @@ Ideas:
 '''
 
 app = Flask(__name__)
-cors = CORS(app)
+#cors = CORS(app)
 executor = Executor(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 log = logging.getLogger('werkzeug')
